@@ -14,15 +14,17 @@ namespace Stroytelling
         }
         public IState Check()
         {
-            if (Console.ReadLine() == "Shop")
+            string input = Console.ReadLine();
+            
+            if (input == "Shop")
             {
                 return new Shop();
             }
-            else if (Console.ReadLine() == "Innenhof")
+            else if (input == "Innenhof")
             {
                 return new Innenhof();
             }
-            else if (Console.ReadLine() == "Sonderausstellung")
+            else if (input == "Sonderausstellung")
             {
                 return new Sonderausstellung();
             }

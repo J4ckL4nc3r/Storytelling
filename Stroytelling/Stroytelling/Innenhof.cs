@@ -17,11 +17,13 @@ namespace Stroytelling
         }
         public IState Check()
         {
-            if (Console.ReadLine() == "Galerie")
+            string input = Console.ReadLine();
+
+            if (input == "Galerie")
             {
                 return new Gallerie();
             }
-            else if(Console.ReadLine() == "Ausstellung")
+            else if(input == "Ausstellung")
             {
                 if (hasKey)
                 {

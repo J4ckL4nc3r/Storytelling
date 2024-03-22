@@ -14,7 +14,8 @@ namespace Stroytelling
         }
         public IState Check()
         {
-            if (Console.ReadLine() == "Innenhof")
+            string input = Console.ReadLine();
+            if (input == "Innenhof")
             {
                 return new Innenhof();
             }

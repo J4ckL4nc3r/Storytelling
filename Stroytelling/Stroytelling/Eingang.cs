@@ -14,11 +14,14 @@ namespace Stroytelling
         }
         public IState Check()
         {
-            if (Console.ReadLine() == "Gallerie")
+            string input = Console.ReadLine();
+
+
+            if (input == "Gallerie")
             {
                 return new Gallerie();
             }
-            else if(Console.ReadLine() == "Schreibtisch")
+            else if(input == "Schreibtisch")
             {
                 if (!Innenhof.hasKey)
                 {
@@ -31,7 +34,7 @@ namespace Stroytelling
                 }
                 
             }
-            else if(Console.ReadLine() == "Haupteingang")
+            else if(input == "Haupteingang")
             {
                 Console.WriteLine("Die Tür ist verschlossen. Warum willst du schon gehen?");
             }

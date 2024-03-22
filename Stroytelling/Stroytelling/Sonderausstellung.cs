@@ -10,15 +10,17 @@ namespace Stroytelling
     {
         public IState Check()
         {
-            if (Console.ReadLine() == "WC")
+            string input = Console.ReadLine();
+            
+            if (input == "WC")
             {
                 return new WC();
             }
-            else if (Console.ReadLine() == "Galerie")
+            else if (input == "Galerie")
             {
                 return new Gallerie();
             }
-            else if (Console.ReadLine() == "Ausstellungsraum")
+            else if (input == "Ausstellungsraum")
             {
                 return new Ausstellungsraum();
             }

@@ -15,7 +15,8 @@ namespace Stroytelling
         }
         public IState Check()
         {
-            if (Console.ReadLine() == "Innenhof")
+            string input = Console.ReadLine();
+            if (input == "Innenhof")
             {
                 if (Innenhof.hasKey)
                 {
@@ -27,11 +28,11 @@ namespace Stroytelling
                 }
                 
             }
-            else if (Console.ReadLine() == "Sonderaustellung")
+            else if (input == "Sonderaustellung")
             {
                 return new Sonderausstellung();
             }
-            else if(Console.ReadLine() == "Eingang")
+            else if(input == "Eingang")
             {
                 return new Eingang();
             }
