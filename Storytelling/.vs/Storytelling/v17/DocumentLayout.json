@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\GitKraken\\Repo\\Storytelling\\Storytelling\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{976B6FD9-9A8C-4A61-A892-ABCFB7FCC991}|Storytelling\\Storytelling.csproj|e:\\gitkraken\\repo\\storytelling\\storytelling\\storytelling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976B6FD9-9A8C-4A61-A892-ABCFB7FCC991}|Storytelling\\Storytelling.csproj|solutionrelative:storytelling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GitKraken\\Repo\\Storytelling\\Storytelling\\Storytelling\\Program.cs",
+              "RelativeDocumentMoniker": "Storytelling\\Program.cs",
+              "ToolTip": "E:\\GitKraken\\Repo\\Storytelling\\Storytelling\\Storytelling\\Program.cs",
+              "RelativeToolTip": "Storytelling\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T11:56:48.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
