@@ -13,11 +13,12 @@ namespace Stroytelling
 
         public void Update()
         {
-            Console.WriteLine("Sleeping");
+            Console.WriteLine("Galerie");
+            Console.WriteLine("Ausstellung");
         }
         public IState Check()
         {
-            if (Console.ReadLine() == "Gallerie")
+            if (Console.ReadLine() == "Galerie")
             {
                 return new Gallerie();
             }
@@ -56,7 +57,7 @@ namespace Stroytelling
         }
         public void EndState()
         {
-            Console.WriteLine("Waking up");
+            Console.WriteLine("Du verlässt den Innenhof!");
         }
     }
 }
