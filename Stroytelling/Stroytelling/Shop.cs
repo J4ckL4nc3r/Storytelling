@@ -10,24 +10,28 @@ namespace Stroytelling
     {
         public void Update()
         {
-            Console.WriteLine("Sleeping");
+            Console.WriteLine("");
         }
         public IState Check()
         {
-            if (Console.ReadLine() == "s")
+            if (Console.ReadLine() == "Eingang")
             {
-                return new HERE_NEW_ROOM();
+                return new Eingang();
+            }
+            else if (Console.ReadLine() == "Gallerie")
+            {
+                return new Gallerie();
             }
             return null;
         }
 
         public void StartState()
         {
-            Console.WriteLine("zZzZ");
+            Console.WriteLine("");
         }
         public void EndState()
         {
-            Console.WriteLine("Waking up");
+            Console.WriteLine("");
         }
     }
 }
