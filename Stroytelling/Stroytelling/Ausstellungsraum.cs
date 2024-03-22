@@ -17,7 +17,15 @@ namespace Stroytelling
         {
             if (Console.ReadLine() == "Innenhof")
             {
-                return new Innenhof();
+                if (Innenhof.hasKey)
+                {
+                    return new Innenhof();
+                }
+                else
+                {
+                    Console.WriteLine("Die Tür ist verschlossen.");
+                }
+                
             }
             else if (Console.ReadLine() == "Sonderaustellung")
             {
