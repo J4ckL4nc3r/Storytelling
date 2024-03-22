@@ -20,9 +20,9 @@ namespace Stroytelling
             }
             else if(Console.ReadLine() == "Schreibtisch")
             {
-                if (!hasKey)
+                if (!Innenhof.hasKey)
                 {
-                    hasKey = true;
+                    Innenhof.hasKey = true;
                     Console.WriteLine("Du hast den Schreibtisch des Wärters durchsucht und einen Universalschlüssel gefunden!");
                 }
                 else
