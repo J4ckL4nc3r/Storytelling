@@ -13,8 +13,7 @@ namespace Stroytelling
 
         public void Update()
         {
-            Console.WriteLine("Galerie");
-            Console.WriteLine("Ausstellung");
+            Console.WriteLine("Was möchtest du tun?");
         }
         public IState Check()
         {
@@ -52,7 +51,7 @@ namespace Stroytelling
 
             // Tür Beschreibungen
             Console.WriteLine("Rechts hinter dir befindet sich eine schwarze Tür mit der Aufschrift 'Ausstellungsraum'. Die Tür scheint jedoch verschlossen zu sein\n" +
-                "Links vor dir befindet sich eine weitere, rote Tür. Die Tür hat die Aufschrift 'Gallerie' und durch den Türspalt kannst du ein\n" +
+                "Links vor dir befindet sich eine weitere, rote Tür. Die Tür hat die Aufschrift 'Galerie' und durch den Türspalt kannst du ein\n" +
                 "leichtes Licht sehen. Die Tür scheint offen zu sein.");
         }
         public void EndState()

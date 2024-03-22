@@ -8,7 +8,7 @@ namespace Stroytelling
 {
     internal class StateMachine
     {
-        private IState curState = null;
+        public IState curState = null;
         public StateMachine()
         {
             Start();
@@ -17,6 +17,7 @@ namespace Stroytelling
         private void Start()
         {
             curState = new Innenhof();
+            curState.StartState();
         }
 
         public void Update()
